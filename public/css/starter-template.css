@@ -1,7 +1,39 @@
-body {
-  padding-top: 5rem;
+html, body {
+  font-size: 14px;
+  font-family: 'Signika', sans-serif;
 }
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.personal-bio, .personal-quote { margin: 100px 0; }
+.personal-bio img { border: 1px solid; padding: 10px; }
+.padding-top-40 { padding-top: 40px; }
+.personal-quote .fa-quote-left {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.personal-quote .fa-quote-right {
+  font-size: 30px;
+  margin-leftt: 10px;
 }
