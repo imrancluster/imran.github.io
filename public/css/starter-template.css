@@ -48,3 +48,24 @@ html, body {
   font-size: 30px;
   margin-leftt: 10px;
 }
+
+
+/* iPhone 6, 7, & 8 in portrait */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+  footer {
+    text-align: center;
+  }
+}
+
+/* iPhone 6, 7, & 8 in landscape */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) {
+  .contact-me {
+    text-align: left !important;
+  }
+}
