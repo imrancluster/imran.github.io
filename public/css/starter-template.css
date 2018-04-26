@@ -8,6 +8,16 @@ html, body {
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .personal-bio {
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
+
 .container {
   max-width: 960px;
 }
@@ -25,7 +35,7 @@ html, body {
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
-.personal-bio, .personal-quote { margin: 100px 0; }
+.personal-bio { margin: 50px 0; }
 .personal-bio img { border: 1px solid; padding: 10px; }
 .padding-top-40 { padding-top: 40px; }
 .personal-quote .fa-quote-left {
@@ -33,6 +43,7 @@ html, body {
   margin-right: 10px;
 }
 
+.personal-quote { margin: 50px 0; }
 .personal-quote .fa-quote-right {
   font-size: 30px;
   margin-leftt: 10px;
