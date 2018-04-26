@@ -48,3 +48,8 @@ html, body {
   font-size: 30px;
   margin-leftt: 10px;
 }
+
+.personal-bio .portfolio img { border: none; margin: 25px 0; }
+.portfolio a { text-decoration: none; }
+.portfolio img:hover { border: 1px solid #6c757d; }
+.portfolio img { width: 100%; }
